@@ -8,9 +8,11 @@ import org.pentaho.di.core.plugins.PluginFolder;
 import org.pentaho.di.core.plugins.StepPluginType;
 import org.pentaho.di.trans.Trans;
 import org.pentaho.di.trans.TransMeta;
+import org.springframework.stereotype.Service;
 
 import java.io.File;
 
+@Service
 public class KettleIntegrationExample {
     public static void main(String[] args) {
         try {
