@@ -18,7 +18,7 @@ public class KettleIntegrationExample {
             String jndiFilePath = jndiFile.getPath();
             Const.JNDI_DIRECTORY = jndiFilePath;
             StepPluginType.getInstance().getPluginFolders().
-                    add(new PluginFolder("D:/kettle-pdi/data-integration/plugins/kettle-json-plugin",false
+                    add(new PluginFolder("D:/kettle-pdi/data-integration",false
                             , true));
             KettleEnvironment.init();
             File ktrFile = FileUtil.file("ktrs/system_hospital_cloud.ktr");
